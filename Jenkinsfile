@@ -25,7 +25,7 @@ pipeline {
 			  echo 'I run when you are successful'
 		  }
 		  failure {
-			  echo "Don't want to see me now"
+			  echo "Don't want to see me"
 		  }
 	  } 
 }
